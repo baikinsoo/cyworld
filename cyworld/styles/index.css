@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /*border-box로 설정하면, 요소의 크기를
+    /* border-box로 설정하면, 요소의 크기를
     width와 height 값에 padding과 border를 포함한 총 크기로 설정 */
     margin: 0px;
 }
@@ -9,6 +9,8 @@
     width: 1024px;
     height: 600px;
     background-image: url("../images/background.png");
+    /*margin: 40px 0px 0px 40px;*/
+    /*margin은 부모 요소와의 상대적인 거리를 나타낸다.*/
     padding: 20px 0px 0px 20px;
 }
 
