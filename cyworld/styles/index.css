@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    /*border-box로 설정하면, 요소의 크기를
+    width와 height 값에 padding과 border를 포함한 총 크기로 설정 */
+    margin: 0px;
+}
+
+.background {
+    width: 1024px;
+    height: 600px;
+    background-image: url("../images/background.png");
+    padding: 20px 0px 0px 20px;
+}
+
+.outerbox {
+    width: 808px;
+    height: 544px;
+    background-image: url("../images/outerbox.png");
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 0px 0px 32px;
+}
+
+.wrapper__left {
+    width: 208px;
+    height: 472px;
+    /* display 설정을 해주지 않으면 472의 값이 그래도 전달되어 범위를 벗어나게 된다.??? */
+    /*background-color: bisque;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__left__header {
+    width: 100%;
+    height: 30px;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.today {
+    /* css속성은 상속이 된다. */
+    font-size: 9px;
+}
+
+.wrapper__left__body {
+    width: 100%;
+    height: 100%;
+    /*background-color: steelblue;*/
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+}
+
+.left__body__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left__body__header__gray {
+    width: 148px;
+    height: 133px;
+    background-color: gray;
+}
+
+.left__body__header__line {
+    border-top : 1px dotted black;
+    margin: 12px 0px;
+}
+
+.left__body__profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.profile_detail {
+    color: #999999;
+    font-size: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left__body__footer {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.wrapper__feel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    width: 100%;
+}
+
+.feel__title {
+    font-size: 11px;
+    /*padding: 5px 5px;*/
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.feel__select {
+    font-size: 11px;
+    color: gray;
+}
+
+.wrapper__right {
+    width: 524px;
+    height: 472px;
+    background-color: violet;
+}
