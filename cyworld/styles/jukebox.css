@@ -15,12 +15,11 @@ body, html {
 }
 
 .wrapper__header {
-    width: 464px;
-    height: 203px;
+    width: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     padding: 5px;
 }
 
@@ -32,7 +31,176 @@ body, html {
     align-items: center;
 }
 
+.main__title {
+    color: #55B2D4;
+    font-family: "Malgun Gothic";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 5px;
+}
+
+.sub__title {
+    color: #000;
+    font-family: Sci Fied Bitmap;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+
 .divideLine {
     width: 100%;
     border-top: 1px solid gray;
+    margin: 5px 0px;
 }
+
+.albumWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first__album {
+    display: flex;
+    flex-direction: column;
+}
+
+.second__album {
+    display: flex;
+    flex-direction: column;
+}
+
+.third__album {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+}
+
+.album__content {
+    color: #0F465E;
+    text-align: center;
+    font-family: Malgun Gothic;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.album__singer {
+    color: #999;
+    text-align: center;
+    font-family: Malgun Gothic;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wrapper__body {
+    width: 100%;
+}
+
+.albumTable {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.albumTable th {
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    background-color: #eeeeee;
+    padding-top: 3px;
+    border-top: 1px solid gray;
+    border-bottom: 1px dashed gray ;
+}
+
+.albumTable td {
+    height: 20px;
+    font-size: 10px;
+    color: #0F465E;
+    border-bottom: 1px dashed gray;
+}
+
+.album-table-checkbox {
+    width: 5%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.album-table-number {
+    width: 10%;
+    text-align: center;
+}
+
+.album-table-song {
+    width: 45%;
+    text-align: left;
+}
+
+.album-table-artist {
+    width: 30%;
+    text-align: center;
+}
+
+
+/*.albumTable {*/
+/*    width: 100%;*/
+/*    padding: 5px;*/
+/*}*/
+
+/*.main__table {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.table__row__header {*/
+/*    background: #EEE;*/
+/*}*/
+
+/*.table__title {*/
+/*    color: #999999;*/
+/*    text-align: center;*/
+/*    font-family: Malgun Gothic;*/
+/*    font-size: 10px;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*}*/
+
+/*.table__number {*/
+/*    color: #000;*/
+/*    text-align: center;*/
+/*    font-family: Malgun Gothic;*/
+/*    font-size: 10px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*}*/
+
+/*.table__song {*/
+/*    color: #0F465E;*/
+/*    font-family: Malgun Gothic;*/
+/*    font-size: 10px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*}*/
+
+/*.table__singer {*/
+/*    color: #0F465E;*/
+/*    font-family: Malgun Gothic;*/
+/*    font-size: 10px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*}*/
