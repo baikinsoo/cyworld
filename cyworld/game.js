@@ -17,3 +17,19 @@ const startWord = () => {
         document.getElementById("myword").value = "";
     }
 };
+
+const random = () => {
+    var tokenList = [,,,,,];
+
+    for (let i = 0; i < 6; i++) {
+        let token = String(Math.floor(Math.random() * 100))
+        tokenList[i] = token
+        console.log(tokenList[i])
+    }
+    document.getElementById("first").innerText = tokenList[0]
+    document.getElementById("second").innerText = tokenList[1]
+    document.getElementById("third").innerText = tokenList[2]
+    document.getElementById("fourth").innerText = tokenList[3]
+    document.getElementById("fifth").innerText = tokenList[4]
+    document.getElementById("sixth").innerText = tokenList[5]
+};
