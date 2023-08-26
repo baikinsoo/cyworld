@@ -26,6 +26,7 @@ const random = () => {
         tokenList[i] = token
         console.log(tokenList[i])
     }
+
     document.getElementById("first").innerText = tokenList[0]
     document.getElementById("second").innerText = tokenList[1]
     document.getElementById("third").innerText = tokenList[2]
